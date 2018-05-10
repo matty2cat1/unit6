@@ -8,4 +8,4 @@ longestWord=''
 for line in file:
     if len(line) > len(longestWord):
         line=longestWord
-    print(line)
+print(longestWord)

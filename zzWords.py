@@ -6,4 +6,4 @@ file = open('engmix.txt')
 
 for line in file:
     if 'zz' in line:
-        print(line)
+        print(line.strip())

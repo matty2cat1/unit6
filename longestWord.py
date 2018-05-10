@@ -1,6 +1,6 @@
 #Matt Westelman
 #5/10/18
-#longestWord.py
+#longestWord.py - Not sure it works, too scared to test it
 
 file = open('engmix.txt')
 

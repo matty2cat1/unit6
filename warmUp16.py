@@ -6,6 +6,6 @@ file = open('engmix.txt')
 
 for line in file:
     line = line.strip()
-    if 'm' == line[0] and 'w'== line[-1]:
+    if len(line)>0 and 'm' == line[0] and 'w'== line[-1]:
         print(line)
 

@@ -1,14 +1,12 @@
-
 #Matt Westelman
 #5/9/18
 #fileDemo.py - How to read a file
 
-file = open('engmix.txt')
+list= []
+file = open('fileDemo.py')
 
-numWords = 0
 for line in file:
-    if 'west' in line:
-        print(line.strip())
-    numWords += 1
+    list.append(line.strip())
     
-print(numWords)
+for i in range (len(list)):
+    print(list[i] "!")

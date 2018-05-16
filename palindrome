@@ -1,7 +1,8 @@
 #Matt Westelman
 #5/16/18
-#palendromes.py - Well I did it right this time
+#palindromes.py - Well, I guess last program's mistake comes in handy here
 
+file = open('engmix.txt')
 
 if line.strip = line.strip[::-1]
     print line

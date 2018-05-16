@@ -4,5 +4,7 @@
 
 file = open('engmix.txt')
 
-if line.strip = line.strip[::-1]
-    print line
+for line in file:
+    fred = line.strip
+    if str(fred) = str(fred[::-1])
+        print(fred)

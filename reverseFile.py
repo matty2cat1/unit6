@@ -1,10 +1,12 @@
 #Matt Westelman
 #5/16/18
-#palindromes.py - Well, I guess last program's mistake comes in handy here
+#reverseFile.py - for all intents and purposes, this file has clearly been reversed
 
-file = open('engmix.txt')
+
+file = open('fileDemo.py')
 
 for line in file:
-    fred = line.strip
-    if str(fred) = str(fred[::-1])
-        print(fred)
+    line= line.split()
+    for word in line:
+        word = word.strip()
+        print(word[::-1])

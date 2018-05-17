@@ -4,7 +4,10 @@
 
 file = open('engmix.txt')
 
+def reverseWord(a):
+    return a[::-1]
+    
 for line in file:
-    fred = line.strip
-    if str(fred) = str(fred[::-1])
-        print(fred)
+    line = line.strip
+    if reverseWord(line) == line
+        print(reverseWord)

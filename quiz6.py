@@ -17,13 +17,14 @@ for line in file:
     if lettcou == 4:
         print(line)
 """
-
+""" PROGRAM 2 - I doubt it works though...
 for line in file:
     line = line.strip()
     if len(line)==9:
         if line[0] == line[4] == line[8]
         print(line)
         break
+"""
 
 """ PROGRAM 3 
 for line in file:
